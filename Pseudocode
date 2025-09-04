@@ -4,18 +4,19 @@ While true
 	ask user to input a phrase with lowercase letters only
 	phrase = input
 
-	for each loop for each char in phrase
+	for each loop for each character in phrase
 		if char is not >= 'a' and <= 'z'  
 			tell user to use lowercase alphabet only
 			set isLower to false 
 			break out of loop
-	
+	End for each loop
+
 	if isLower = true then break out of loop
 End while
 
-for each loop for each char in phrase
+for each loop for each character in phrase
 	char = char - 32      // Any lower case - 32 = uppercase	
-End for each
+End for each loop
 
 output phrase
 -------------------------------------------------------------------------------------------
@@ -45,6 +46,8 @@ While true
     try checking if number is a number, if not catch the error and display "Please enter a valid number", subtract 1 from loop iteration and continue to next loop.
     sum = sum + input
   break out of loop
+  End for loop
+
 End While
 
 Output sum
@@ -68,7 +71,24 @@ While continue is true
 			break out of loop
 		else 
 			tell user their input must be a valid input
+	End while
+
 End While
 -------------------------------------------------------------------------------------------
 5.
+create an integer called leftCount = 0
+create an integer called rightCount = 0
+
+for loop from 0 to 9
+	generate a random number from 1 - 100
+	if the number mod 2 = 0
+		print "RIGHT"
+		add 1 to rightCount
+	else
+		print "LEFT"
+		add 1 to leftCount
+End For Loop
+
+print "left:" leftCount
+print "right:" rightCount
 
