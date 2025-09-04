@@ -9,7 +9,7 @@ While true
     Ask user to input number
     try checking if numbers is a number, if not catch the error and display "Please enter a valid number", subtract 1 from loop iteration and continue to next loop.
     sum = sum + input
-  break
+  break out of loop
 End While
 
 Output sum
