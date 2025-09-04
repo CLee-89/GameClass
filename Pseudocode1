@@ -1,4 +1,4 @@
-While loop
+While true
 	create a boolean isLower and set to true
 	ask user to input a phrase with lowercase letters only
 	phrase = input
@@ -10,8 +10,10 @@ While loop
 			break out of loop
 	
 	if isLower = true then break out of loop
-	
+End while
+
 for each loop for each char in phrase
 	char = char - 32      // Any lower case - 32 = uppercase	
+End for each
 
 output phrase
