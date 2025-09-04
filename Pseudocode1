@@ -1,0 +1,17 @@
+While loop
+	create a boolean isLower and set to true
+	ask user to input a phrase with lowercase letters only
+	phrase = input
+
+	for each loop for each char in phrase
+		if char is not >= 'a' and <= 'z'  
+			tell user to use lowercase alphabet only
+			set isLower to false 
+			break out of loop
+	
+	if isLower = true then break out of loop
+	
+for each loop for each char in phrase
+	char = char - 32      // Any lower case - 32 = uppercase	
+
+output phrase
