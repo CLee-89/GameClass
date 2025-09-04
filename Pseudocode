@@ -1,0 +1,52 @@
+1.
+While true
+	create a boolean isLower and set to true
+	ask user to input a phrase with lowercase letters only
+	phrase = input
+
+	for each loop for each char in phrase
+		if char is not >= 'a' and <= 'z'  
+			tell user to use lowercase alphabet only
+			set isLower to false 
+			break out of loop
+	
+	if isLower = true then break out of loop
+End while
+
+for each loop for each char in phrase
+	char = char - 32      // Any lower case - 32 = uppercase	
+End for each
+
+output phrase
+-------------------------------------------------------------------------------------------
+2.
+While true
+	ask user to input number
+	a = input
+	ask user for another number
+	b = input
+	if needed try checking if inputs are numbers and catch the error saying "Please enter a number"
+		continue to the next loop iteration if error occurred
+End while
+
+c = a + b
+output c
+-------------------------------------------------------------------------------------------
+3.
+While true
+  Ask user how many numbers they want to enter
+  numbers = input
+  try checking if numbers is a number, if not catch the error and display "Please enter a valid number" and continue to next loop
+
+  create sum = 0
+
+  for loop from 0 to numbers - 1
+    Ask user to input number
+    try checking if numbers is a number, if not catch the error and display "Please enter a valid number", subtract 1 from loop iteration and continue to next loop.
+    sum = sum + input
+  break out of loop
+End While
+
+Output sum
+-------------------------------------------------------------------------------------------
+4.
