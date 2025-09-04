@@ -1,3 +1,4 @@
+1.
 While true
 	create a boolean isLower and set to true
 	ask user to input a phrase with lowercase letters only
@@ -17,3 +18,16 @@ for each loop for each char in phrase
 End for each
 
 output phrase
+
+2.
+While true
+	ask user to input number
+	a = input
+	ask user for another number
+	b = input
+	if needed try checking if inputs are numbers and catch the error saying "Please enter a number"
+		continue to the next loop iteration if error occurred
+End while
+
+c = a + b
+output c
