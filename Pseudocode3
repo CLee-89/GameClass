@@ -1,4 +1,4 @@
-While loop
+While true
   Ask user how many numbers they want to enter
   numbers = input
   try checking if numbers is a number, if not catch the error and display "Please enter a valid number" and continue to next loop
