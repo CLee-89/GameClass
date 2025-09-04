@@ -42,7 +42,7 @@ While true
 
   for loop from 0 to numbers - 1
     Ask user to input number
-    try checking if numbers is a number, if not catch the error and display "Please enter a valid number", subtract 1 from loop iteration and continue to next loop.
+    try checking if number is a number, if not catch the error and display "Please enter a valid number", subtract 1 from loop iteration and continue to next loop.
     sum = sum + input
   break out of loop
 End While
@@ -50,3 +50,25 @@ End While
 Output sum
 -------------------------------------------------------------------------------------------
 4.
+create boolean continue and set to true
+While continue is true
+	Ask user to define a maximum number for a random number being generated
+	max = input
+	try checking if number is a whole number, if not catch the error and display "Please enter a valid whole number" and continue to next loop
+	generate random number using input as maximum value, or maximum value + 1 if language goes from 0 to maximum - 1
+	number = random number generated
+	output number
+
+	while true
+		ask user to if they want to enter new number, input y for yes or n for no
+		if input = 'n' or 'N'
+			set continue to false
+			break out of loop
+		else if input = 'y' or 'Y'
+			break out of loop
+		else 
+			tell user their input must be a valid input
+End While
+-------------------------------------------------------------------------------------------
+5.
+
